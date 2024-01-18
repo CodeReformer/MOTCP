@@ -1,12 +1,10 @@
-# MOTCP
+# Test case prioritization based on fault sensitivity analysis using ranked NSGA-2
+
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/443e69dd-4865-4288-80d7-82de9d49dbf5)
 <br><i>(Description of small-scale project C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
 
-![image](https://github.com/CodeReformer/MOTCP/assets/156921147/869feba2-40d6-4d1c-81e0-d789be17356d)
-<br><i>APFD of testcase order T0.</i>
-
 <table border="1">
-  <caption>Table 2: Testcases v/s Fault matrix</caption>
+  <caption>Table 1: Testcases v/s Fault matrix</caption>
   <tr>
     <th></th>
     <th>F0</th>
@@ -162,15 +160,16 @@
   </tr>
 </table>
 
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/1b5c30f1-71cb-4153-b4c0-e404e977f2eb)
 
 
-
-
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/869feba2-40d6-4d1c-81e0-d789be17356d)
+<br><i>APFD of testcase order T0.</i>
 
 
 
 <table border="1">
-  <caption>Figure 4: AUC of CWc and CWt</caption>
+  <caption>Table 2: Testcases v/s Class matrix</caption>
   <tr>
     <th></th>
     <th>C1</th>
@@ -286,7 +285,7 @@
 
 
 <table border="1">
-  <caption>Table 16: Optimal Solution generated from permutated testcases</caption>
+  <caption>Table 3: Optimal Solution generated from permutated testcases</caption>
   <tr>
     <th>Objectives</th>
     <th>APFD</th>
@@ -328,7 +327,7 @@
 
 
 <table border="1">
-  <caption>Table 17: Performance comparison of various state-of-art algorithms with optimal solutions</caption>
+  <caption>Table 4: Performance comparison of various state-of-art algorithms with optimal solutions</caption>
   <tr>
     <th>Methods</th>
     <th>APFD</th>
@@ -372,7 +371,7 @@
 
 
 <table border="1">
-  <caption>Table 9: Original Dataset</caption>
+  <caption>Table 5: Original Dataset</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
@@ -430,7 +429,7 @@
 </table>
 
 <table border="1">
-  <caption>Table 10: Different versions of project1</caption>
+  <caption>Table 6: Different versions of project1</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
@@ -470,7 +469,7 @@
 </table>
 
 <table border="1">
-  <caption>Table 11: Different versions of project2</caption>
+  <caption>Table 7: Different versions of project2</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
@@ -510,7 +509,7 @@
 </table>
 
 <table border="1">
-  <caption>Table 12: Different versions of project3</caption>
+  <caption>Table 8: Different versions of project3</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
@@ -550,7 +549,7 @@
 </table>
 
 <table border="1">
-  <caption>Table 13: Different versions of project4</caption>
+  <caption>Table 9: Different versions of project4</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
@@ -590,7 +589,7 @@
 </table>
 
 <table border="1">
-  <caption>Table 14: Different versions of project5</caption>
+  <caption>Table 10: Different versions of project5</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
