@@ -298,6 +298,10 @@
 
 
 
+<p>In order to evaluate the optimality of NSGA-2, which refers to the quality of solutions it can generate, we conducted a comparison with an optimal solution presented in Table 3. Generating optimal solutions involved generating permutations for eight test cases, resulting in a total of 40,320 permutations. Fitness values were evaluated for each permutation, and these values were utilized to construct Pareto Fronts from all the permutations.</p>
+<p>Through the sorting of fitness values for each objective function from the first front, we were able to identify the optimal solution from the 40,320 potential solutions. Subsequently, we compared the optimal solutions produced by our proposed MOTCP model with these results. It is worth mentioning that during the analysis of TCP in project P, NSGA-2 effectively achieved the optimal solution, which was part of the initial set of Pareto Fronts (Table 17).</p>
+<p>Based on this finding, we hypothesize that if an algorithm can provide an optimal solution for small-scale projects like P, it is likely to yield the best solution for larger projects as well.</p>
+
 <table border="1">
   <caption>Table 3: Optimal Solution generated from permutated testcases</caption>
   <tr>
@@ -341,7 +345,7 @@
 
 
 <table border="1">
-  <caption>Table 4: Performance comparison of various state-of-art algorithms with optimal solutions</caption>
+  <caption>Table 4: Performance comparison of NSGA-2 with respect to each objective in first pareto front.</caption>
   <tr>
     <th>Methods</th>
     <th>APFD</th>
