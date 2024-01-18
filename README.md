@@ -649,9 +649,8 @@
 
 <br><i>Convergence of NSGA-2 on each iteration</i>
 
-![image](https://github.com/CodeReformer/MOTCP/assets/156921147/3d79b6fb-d128-425d-9edd-8e3147407c81)
-<br>
-![image](https://github.com/CodeReformer/MOTCP/assets/156921147/d93def86-e0a3-41ea-a5a9-178fa3342ec6)
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/64000482-a69e-473c-9651-250216879ae7)
+
 <br><i>3D scatter plots that show the first three fronts of NSGA-2.</i>
 
 
