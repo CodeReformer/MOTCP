@@ -3,7 +3,7 @@
 <br><i>(Description of small-scale project C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/869feba2-40d6-4d1c-81e0-d789be17356d)
-
+<br><i>APFD of testcase order T0.</i>
 
 <table border="1">
   <caption>Table 2: Testcases v/s Fault matrix</caption>
