@@ -180,8 +180,6 @@
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/869feba2-40d6-4d1c-81e0-d789be17356d)
 <br><i>APFD of testcase order T0.</i>
 
-
-
 <table border="1">
   <caption>Table 2: Testcases v/s Class matrix</caption>
   <tr>
@@ -640,27 +638,18 @@
   </tr>
 </table>
 
-
 <p>The evaluation involves comparing the performance of the NSGA-2 algorithm with various state-of-the-art algorithms commonly used in test case prioritization.</p>
-
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/7bb7c9f6-78b9-43c5-8d84-7828235b6dca)
 <br><i>Box plot of different algorithms on (a) P1, (b) P2, (c) P3, (d) P4 dataset.</i>
 
-
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/34e6fae5-b82e-4495-a552-5a589901c7b2)
 <br><i>Box plot of different algorithms on (a) P5, (b) Ant, (c) jmeter  (d) jtopas dataset.</i>
 
-
-
-
-
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/1ba3073e-a271-4419-855b-ccdadd1d5917)
-
 <br><i>Convergence of NSGA-2 on each iteration</i>
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/64000482-a69e-473c-9651-250216879ae7)
-
 <br><i>3D scatter plots that show the first three fronts of NSGA-2.</i>
 
 
