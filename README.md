@@ -380,11 +380,8 @@
   </tr>
 </table>
 
+<p>To validate the proposed model, the project includes experiments on five handcrafted and three benchmark Java-based applications.</p>
 
-
-
-
-<p>To validate the proposed model, the project includes experiments on five handcrafted and three benchmark Java-based applications. The evaluation involves comparing the performance of the NSGA-2 algorithm with various state-of-the-art algorithms commonly used in test case prioritization. The comparison aims to assess the effectiveness, efficiency, and overall superiority of the proposed approach in identifying and addressing faults in software.</p>
 <table border="1">
   <caption>Table 5: Handcrafted Dataset</caption>
   <tr>
@@ -644,8 +641,7 @@
 </table>
 
 
-
-
+<p>The evaluation involves comparing the performance of the NSGA-2 algorithm with various state-of-the-art algorithms commonly used in test case prioritization.</p>
 
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/7bb7c9f6-78b9-43c5-8d84-7828235b6dca)
