@@ -327,6 +327,46 @@
 
 
 
+<table border="1">
+  <caption>Table 17: Performance comparison of various state-of-art algorithms with optimal solutions</caption>
+  <tr>
+    <th>Methods</th>
+    <th>APFD</th>
+    <th>SI</th>
+    <th>Cost</th>
+    <th>Test Cases Order</th>
+    <th>Truncated Order</th>
+    <th>Reduced Cost</th>
+  </tr>
+  <tr>
+    <td>NSGA-2 (APFD)</td>
+    <td>79.46</td>
+    <td>2171.5</td>
+    <td>699</td>
+    <td>4, 5, 2, 0, 1, 6, 7, 3</td>
+    <td>4, 5, 2, 0</td>
+    <td>77</td>
+  </tr>
+  <tr>
+    <td>NSGA-2 (SI)</td>
+    <td>74.1071</td>
+    <td>2788.5</td>
+    <td>750</td>
+    <td>7, 4, 5, 3, 0, 2, 6, 1</td>
+    <td>7, 4, 5, 3, 0, 2</td>
+    <td>127</td>
+  </tr>
+  <tr>
+    <td>NSGA-2 (Cost)</td>
+    <td>67.85</td>
+    <td>1936.5</td>
+    <td>664</td>
+    <td>4, 0, 1, 2, 6, 5, 7, 3</td>
+    <td>4, 0, 1, 2, 6, 5</td>
+    <td>113</td>
+  </tr>
+</table>
+
 
 
 
@@ -590,45 +630,33 @@
 </table>
 
 
-<table border="1">
-  <caption>Table 17: Performance comparison of various state-of-art algorithms with optimal solutions</caption>
-  <tr>
-    <th>Methods</th>
-    <th>APFD</th>
-    <th>SI</th>
-    <th>Cost</th>
-    <th>Test Cases Order</th>
-    <th>Truncated Order</th>
-    <th>Reduced Cost</th>
-  </tr>
-  <tr>
-    <td>NSGA-2 (APFD)</td>
-    <td>79.46</td>
-    <td>2171.5</td>
-    <td>699</td>
-    <td>4, 5, 2, 0, 1, 6, 7, 3</td>
-    <td>4, 5, 2, 0</td>
-    <td>77</td>
-  </tr>
-  <tr>
-    <td>NSGA-2 (SI)</td>
-    <td>74.1071</td>
-    <td>2788.5</td>
-    <td>750</td>
-    <td>7, 4, 5, 3, 0, 2, 6, 1</td>
-    <td>7, 4, 5, 3, 0, 2</td>
-    <td>127</td>
-  </tr>
-  <tr>
-    <td>NSGA-2 (Cost)</td>
-    <td>67.85</td>
-    <td>1936.5</td>
-    <td>664</td>
-    <td>4, 0, 1, 2, 6, 5, 7, 3</td>
-    <td>4, 0, 1, 2, 6, 5</td>
-    <td>113</td>
-  </tr>
-</table>
+
+
+
+
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/7bb7c9f6-78b9-43c5-8d84-7828235b6dca)
+<br><i>Box plot of different algorithms on (a) P1, (b) P2, (c) P3, (d) P4 dataset.</i>
+
+
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/34e6fae5-b82e-4495-a552-5a589901c7b2)
+<br><i>Box plot of different algorithms on (a) P5, (b) Ant, (c) jmeter  (d) jtopas dataset.</i>
+
+
+
+
+
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/1ba3073e-a271-4419-855b-ccdadd1d5917)
+
+<br><i>Convergence of NSGA-2 on each iteration</i>
+
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/3d79b6fb-d128-425d-9edd-8e3147407c81)
+<br>
+![image](https://github.com/CodeReformer/MOTCP/assets/156921147/d93def86-e0a3-41ea-a5a9-178fa3342ec6)
+<br><i>3D scatter plots that show the first three fronts of NSGA-2.</i>
+
+
+
+
 
 
 
