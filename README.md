@@ -7,8 +7,10 @@
 
 <p>Execution Cost, another objective in the prioritization process, considers the resource requirements associated with executing each test case. Balancing thorough testing with resource constraints is crucial for an efficient testing process.</p>
 
-<p>APFD serves as a metric to evaluate the effectiveness of the prioritization strategy by calculating the average percentage of faults detected across the prioritized test cases.</p>
 
+<p>To illustrate and validate the proposed methodology and the formulation of fitness functions, the project employs a small-scale case study named "Project P." This case study is designed to provide a practical demonstration of the methodology in action. Project P is depicted in Figure 2, providing an overview of its structure. The project comprises five modules and seven classes, and a dependency graph is presented to illustrate the relationships among these modules and classes.</p>
+
+<p>The eight test cases serve as input to the prioritization algorithm, where the proposed fitness functions come into play. The fitness functions are designed to evaluate and assign priorities to test cases based on multiple criteria, such as historical sensitivity to faults, execution cost, and the overall impact on fault detection. This holistic approach ensures that the prioritization is not solely based on one factor but considers a combination of relevant aspects.</p>
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/443e69dd-4865-4288-80d7-82de9d49dbf5)
 <br><i>(Description of small-scale project C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
@@ -169,6 +171,9 @@
     <td>1</td>
   </tr>
 </table>
+
+
+<p>APFD serves as a metric to evaluate the effectiveness of the prioritization strategy by calculating the average percentage of faults detected across the prioritized test cases.</p>
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/1b5c30f1-71cb-4153-b4c0-e404e977f2eb)
 
