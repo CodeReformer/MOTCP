@@ -8,7 +8,7 @@
 <p>Execution Cost, another objective in the prioritization process, considers the resource requirements associated with executing each test case. Balancing thorough testing with resource constraints is crucial for an efficient testing process.</p>
 
 
-<p>To illustrate and validate the proposed methodology and the formulation of fitness functions, the project employs a small-scale case study named "Project P." This case study is designed to provide a practical demonstration of the methodology in action. Project P is depicted in Figure 2, providing an overview of its structure. The project comprises five modules and seven classes, and a dependency graph is presented to illustrate the relationships among these modules and classes.</p>
+<p>To illustrate and validate the proposed methodology and the formulation of fitness functions, the project employs a small-scale case study named "Project P." This case study is designed to provide a practical demonstration of the methodology in action. Project P is depicted in Figure 1, providing an overview of its structure. The project comprises five modules and seven classes, and a dependency graph is presented to illustrate the relationships among these modules and classes.</p>
 
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/443e69dd-4865-4288-80d7-82de9d49dbf5)
