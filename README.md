@@ -9,9 +9,7 @@
 
 <p>APFD serves as a metric to evaluate the effectiveness of the prioritization strategy by calculating the average percentage of faults detected across the prioritized test cases.</p>
 
-<p>To validate the proposed model, the project includes experiments on five handcrafted and three benchmark Java-based applications. The evaluation involves comparing the performance of the NSGA-2 algorithm with various state-of-the-art algorithms commonly used in test case prioritization. The comparison aims to assess the effectiveness, efficiency, and overall superiority of the proposed approach in identifying and addressing faults in software.</p>
 
-<p>In conclusion, this project presents a comprehensive and detailed approach to test case ordering and prioritization using a ranking-based NSGA-2 algorithm. The emphasis on sensitivity to faults, historical data, and the inclusion of multiple objectives such as Execution Cost and APFD contribute to a robust methodology for prioritizing test cases. The experimental validation against handcrafted and benchmark applications strengthens the credibility of the proposed model by showcasing its performance relative to existing algorithms in the field of test case prioritization.</p>
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/443e69dd-4865-4288-80d7-82de9d49dbf5)
 <br><i>(Description of small-scale project C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
 
@@ -382,8 +380,9 @@
 
 
 
+<p>To validate the proposed model, the project includes experiments on five handcrafted and three benchmark Java-based applications. The evaluation involves comparing the performance of the NSGA-2 algorithm with various state-of-the-art algorithms commonly used in test case prioritization. The comparison aims to assess the effectiveness, efficiency, and overall superiority of the proposed approach in identifying and addressing faults in software.</p>
 <table border="1">
-  <caption>Table 5: Original Dataset</caption>
+  <caption>Table 5: Handcrafted Dataset</caption>
   <tr>
     <th>Projects</th>
     <th>Versions</th>
