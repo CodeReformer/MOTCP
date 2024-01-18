@@ -1,5 +1,17 @@
 # Test case prioritization based on fault sensitivity analysis using ranked NSGA-2
+<p>In this project, a ranking-based NSGA-2 algorithm is employed for test case ordering and prioritization. The primary focus is on identifying and prioritizing test cases with sensitivity to faults, particularly those introduced by modifications or the addition of new software functionality. The approach utilizes historical data to inform the prioritization process.</p>
 
+<p>A key component of the project is the incorporation of a Sensitive Index, which aids in identifying test cases that are particularly sensitive to faults. In addition to the Sensitive Index, the project emphasizes two other critical objectives in test prioritization: Execution Cost and APFD (Average Percentage of Faults Detected). These objectives collectively contribute to a comprehensive prioritization strategy for efficient and effective fault detection.</p>
+
+<p>The Sensitive Index plays a pivotal role in highlighting test cases with a higher likelihood of revealing faults, especially those arising from recent modifications or the introduction of new software functionalities. Derived from historical data, the Sensitive Index allows the algorithm to assign higher priority to test cases that have demonstrated greater fault-revealing potential in the past.</p>
+
+<p>Execution Cost, another objective in the prioritization process, considers the resource requirements associated with executing each test case. Balancing thorough testing with resource constraints is crucial for an efficient testing process.</p>
+
+<p>APFD serves as a metric to evaluate the effectiveness of the prioritization strategy by calculating the average percentage of faults detected across the prioritized test cases.</p>
+
+<p>To validate the proposed model, the project includes experiments on five handcrafted and three benchmark Java-based applications. The evaluation involves comparing the performance of the NSGA-2 algorithm with various state-of-the-art algorithms commonly used in test case prioritization. The comparison aims to assess the effectiveness, efficiency, and overall superiority of the proposed approach in identifying and addressing faults in software.</p>
+
+<p>In conclusion, this project presents a comprehensive and detailed approach to test case ordering and prioritization using a ranking-based NSGA-2 algorithm. The emphasis on sensitivity to faults, historical data, and the inclusion of multiple objectives such as Execution Cost and APFD contribute to a robust methodology for prioritizing test cases. The experimental validation against handcrafted and benchmark applications strengthens the credibility of the proposed model by showcasing its performance relative to existing algorithms in the field of test case prioritization.</p>
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/443e69dd-4865-4288-80d7-82de9d49dbf5)
 <br><i>(Description of small-scale project C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
 
