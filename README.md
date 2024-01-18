@@ -12,10 +12,10 @@
 
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/443e69dd-4865-4288-80d7-82de9d49dbf5)
-<br><i>(Description of small-scale project C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
+<br><i>(Figure 1: Description of small-scale project P - C: class; M: module; T: testcases; (a) Module dependency (b) Class Dependency)</i>
 
 <table border="1">
-  <caption>Table 1: Testcases v/s Fault matrix</caption>
+  <caption>Table 1: Testcases v/s Fault matrix project P</caption>
   <tr>
     <th></th>
     <th>F0</th>
@@ -171,13 +171,11 @@
   </tr>
 </table>
 
-
 <p>APFD serves as a metric to evaluate the effectiveness of the prioritization strategy by calculating the average percentage of faults detected across the prioritized test cases.</p>
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/1b5c30f1-71cb-4153-b4c0-e404e977f2eb)
 
-
-<p>The eight test cases serve as input to the prioritization algorithm, where the proposed fitness functions come into play. The fitness functions are designed to evaluate and assign priorities to test cases based on multiple criteria, such as historical sensitivity to faults, execution cost, and the overall impact on fault detection. This holistic approach ensures that the prioritization is not solely based on one factor but considers a combination of relevant aspects.</p>
+<p>In order to gain a clearer understanding of APFD, let's consider an example from Project P. A test case versus fault matrix is generated for the project, as illustrated in Table 1. Hence, for the given test case order of To = T2, T6, T0, T3, T4, T5, T1, T7, the APFD can be calculated as follows.</p>
 
 ![image](https://github.com/CodeReformer/MOTCP/assets/156921147/869feba2-40d6-4d1c-81e0-d789be17356d)
 <br><i>APFD of testcase order T0.</i>
